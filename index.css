@@ -224,6 +224,7 @@ body{
 @media (max-width: 1000px)
 {
     .container{
+        max-width: 85vw;
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
     }
@@ -232,6 +233,9 @@ body{
     }
 }
 @media (max-width: 600px){
+    .container{
+        max-width: 80vw;
+    }
     .about .box{
         flex-direction: column;
     }
@@ -244,5 +248,10 @@ body{
     }
     .skill .box{
         grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width: 500px) {
+    .container{
+        max-width: 100vw;
     }
 }
